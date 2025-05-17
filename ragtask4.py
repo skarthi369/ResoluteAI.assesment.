@@ -8,7 +8,7 @@ import faiss
 import os
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDyGDtH7SZrH_OoEhCmdIATNAKb9XhdtYg")  # Replace with your actual API key
+genai.configure(api_key="api key")  # Replace with your actual API key
 
 # Initialize the Gemini model
 model = genai.GenerativeModel('gemini-1.5-flash')  # Use the appropriate model name
